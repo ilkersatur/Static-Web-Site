@@ -1,0 +1,170 @@
+
+
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1340px) {
+    .main-layout {
+        padding: 15px 10px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .main-layout {
+        padding: 15px 10px;
+    }
+    .titlepage h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .banner_main .titlepage h2 {
+        font-size: 31px;
+        line-height: 43px;
+    }
+    .our_fruit .titlepage p,
+    .our .titlepage p,
+    .about .titlepage p,
+    .testimonial_box p {
+        line-height: 27px;
+        padding-bottom: 30px;
+        font-size: 16px;
+    }
+    .our_fruit .titlepage h2,
+    .about .titlepage h2,
+    .banner_main .titlepage h2,
+    .our .titlepage h2 {
+        margin-bottom: 15px;
+    }
+    .testimonial_box .titlepage {
+        padding-bottom: 15px;
+    }
+    .cont h3 {
+        font-size: 38px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-layout {
+        padding: 15px 10px;
+    }
+    .logo {
+        padding-top: 56px;
+        display: block;
+        margin: 0 auto;
+    }
+    .reverse {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .padding_lert {
+        padding-left: 15px;
+    }
+    .padding_right {
+        padding-right: 15px;
+    }
+    .order_2 {
+        order: 2 !important;
+    }
+    .order_1 {
+        order: 1 !important;
+    }
+    .banner_main .read_more {
+        margin-bottom: 30px;
+    }
+    .our_fruit .titlepage h2,
+    .about .titlepage h2,
+    .our .titlepage h2,
+    .testimonial_box .titlepage h2 {
+        margin-top: 20px;
+    }
+    .cont h3 {
+        font-size: 28px;
+        line-height: 43px;
+    }
+    .testimonial_Carousel {
+        padding: 100px 40px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .main-layout {
+        padding: 15px 10px;
+    }
+    .padding_lert {
+        padding-left: 15px;
+    }
+    .padding_right {
+        padding-right: 15px;
+    }
+    .logo {
+        padding-top: 56px;
+        display: block;
+        margin: 0 auto;
+    }
+    .order_2 {
+        order: 2 !important;
+    }
+    .order_1 {
+        order: 1 !important;
+    }
+    .banner_main .read_more {
+        margin-bottom: 30px;
+    }
+    .our_fruit .titlepage h2,
+    .about .titlepage h2,
+    .our .titlepage h2,
+    .testimonial_box .titlepage h2 {
+        margin-top: 20px;
+    }
+    .cont h3 {
+        font-size: 34px;
+    }
+    .testimonial_Carousel {
+        padding: 100px 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .main-layout {
+        padding: 15px 10px;
+    }
+    .padding_lert {
+        padding-left: 15px;
+    }
+    .padding_right {
+        padding-right: 15px;
+    }
+    .banner_main_img h3 {font-size: 23px;}
+    .logo {
+        padding-top: 56px;
+        display: block;
+        margin: 0 auto;
+    }
+    .order_2 {
+        order: 2 !important;
+    }
+    .order_1 {
+        order: 1 !important;
+    }
+    .banner_main .read_more {
+        margin-bottom: 30px;
+    }
+    .banner_main .titlepage h2 {
+        font-size: 38px;
+    }
+    .our_fruit .titlepage h2,
+    .about .titlepage h2,
+    .our .titlepage h2,
+    .testimonial_box .titlepage h2 {
+        margin-top: 20px;
+    }
+    .testimonial_Carousel {
+        padding: 100px 5px;
+    }
+    .cont h3 {
+        font-size: 34px;
+    }
+}
+
